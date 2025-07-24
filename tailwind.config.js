@@ -4,7 +4,7 @@ export default {
   darkMode: "class",
   theme: {
     screens: {
-      'sm': '400px',
+      'sm': '320px',
       // => @media (min-width: 640px) { ... }
 
       'md': '768px',
@@ -21,9 +21,9 @@ export default {
     },
     extend: {
       backgroundImage: {
-        'image-bg': "url('/src/Rectangle.png')", 
-        'image-bg1': "url('/src/Rectangle16.png')",
-        'image-bg2': "url('/src/Rectangle1.png')",
+        'image-bg': "url('/src/Frame3.png')", 
+        // 'image-bg1': "url('/src/Rectangle16.png')",
+        // 'image-bg2': "url('/src/Rectangle1.png')",
       },
     },
   },
